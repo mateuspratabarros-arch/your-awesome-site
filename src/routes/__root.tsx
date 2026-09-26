@@ -77,14 +77,13 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Lovable App" },
-      { name: "description", content: "Lovable Generated Project" },
-      { name: "author", content: "Lovable" },
-      { property: "og:title", content: "Lovable App" },
-      { property: "og:description", content: "Lovable Generated Project" },
+      { title: "Mateus Prata — Orientação para Solicitação de Cartão Visa" },
+      { name: "description", content: "Serviço independente de orientação passo a passo para solicitar o seu cartão Visa associado à Bybit. Aprovação e disponibilidade dependem da plataforma." },
+      { name: "author", content: "Mateus Prata" },
+      { property: "og:title", content: "Mateus Prata — Orientação para Solicitação de Cartão Visa" },
+      { property: "og:description", content: "Serviço independente de orientação passo a passo para solicitar o seu cartão Visa associado à Bybit." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
-      { name: "twitter:site", content: "@Lovable" },
     ],
     links: [
       {
